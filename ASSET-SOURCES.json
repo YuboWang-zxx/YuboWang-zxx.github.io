@@ -1,0 +1,41 @@
+[
+  {
+    "project": "Task-Specific JEPA World Model",
+    "dimensions": [
+      640,
+      480
+    ],
+    "source": "https://github.com/YuboWang-zxx/DL25SP-Final-Project/blob/main/DL%20final%20presentation%20-%20Google%20Slides.pdf",
+    "source_location": "Team 14 course presentation, slide 2, embedded figure 1",
+    "caption": "Two-room environment from the JEPA course project.",
+    "alt": "An agent in a two-room environment with a central wall and doorway.",
+    "provenance": "Original embedded image extracted losslessly with pypdf; no crop or redraw. The source deck names Yizheng Li, Yubo Wang, and Zichu Wang.",
+    "file": "assets/jepa-environment.jpg"
+  },
+  {
+    "project": "DINO-WM Ablation Study",
+    "dimensions": [
+      2256,
+      1463
+    ],
+    "source": "https://github.com/YuboWang-zxx/dino_wm/blob/exp/dinov3-WorldModel/CV_Final_Project_Report__1_.pdf",
+    "source_location": "Course report page 7, Figure 4",
+    "caption": "Push-T evaluation of DINOv2 and DINOv3 world-model variants.",
+    "alt": "Six bar charts comparing Push-T success, distances, and embedding diversity for DINOv2 and DINOv3 world-model variants.",
+    "provenance": "Original embedded image extracted losslessly with pypdf; no crop or redraw. The figure labels distinguish 2epochV2, V3withDecoder, V3w/oDecoder, and checkpointV2.",
+    "file": "assets/dino-evaluation.png"
+  },
+  {
+    "project": "A Cookbook of 3D Vision",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "source": "https://github.com/Hongyang-Du/awesome-3d-datasets/blob/main/images/3dv.001.jpeg",
+    "raw_source": "https://raw.githubusercontent.com/Hongyang-Du/awesome-3d-datasets/main/images/3dv.001.jpeg",
+    "caption": "Eight representations of 3D geometry from the survey companion repository.",
+    "alt": "Stanford bunny represented as RGB-D, multi-view images, point clouds, voxels, mesh, CAD, implicit representation, and 3D Gaussians.",
+    "provenance": "Unmodified original repository image.",
+    "file": "assets/survey-3dv.jpeg"
+  }
+]

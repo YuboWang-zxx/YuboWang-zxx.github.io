@@ -1,0 +1,64 @@
+/* A simple academic layout inspired by Jon Barron's website. */
+* { box-sizing: border-box; }
+html { scroll-padding-top: 22px; }
+body { margin: 0; background: #fff; color: #111; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+a { color: #1772d0; text-decoration: none; }
+a:hover { color: #f09228; }
+a:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+::selection { background: #dcecff; }
+.page { width: 100%; max-width: 800px; margin: 0 auto; padding: 38px 20px 25px; }
+h1 { font-size: 32px; font-weight: 400; line-height: 1.2; text-align: center; margin: 0 0 24px; }
+h2 { font-size: 22px; line-height: 1.3; font-weight: 400; margin: 30px 0 17px; }
+h3 { font-size: 14px; line-height: 1.5; font-weight: 700; margin: 0; }
+p { margin: 0 0 12px; }
+strong { font-weight: 700; }
+.intro { padding: 4px 0 0; }
+.intro p { margin-bottom: 14px; }
+.contact { text-align: center; padding-top: 2px; }
+.contact span { padding: 0 10px; }
+.research-item { display: flex; align-items: center; gap: 25px; margin-bottom: 27px; }
+.research-item:last-child { margin-bottom: 0; }
+.item-body { flex: 1; min-width: 0; }
+.research-item p { margin: 0 0 7px; }
+.research-item p:last-child { margin-bottom: 0; }
+.research-item .metadata { margin-top: 2px; }
+.research-item .links { margin-bottom: 9px; }
+.research-item .authors { margin: 2px 0; }
+.research-item .venue { margin: 0 0 2px; }
+.project-figure { flex: 0 0 170px; width: 170px; margin: 0; }
+.project-figure a { display: block; }
+.project-figure img { display: block; width: 100%; height: auto; max-height: 190px; object-fit: contain; }
+.project-figure figcaption { margin-top: 7px; font-size: 11px; text-align: center; color: #555; }
+ul { padding-left: 21px; margin: 0; }
+li { padding-left: 1px; margin-bottom: 13px; }
+li:last-child { margin-bottom: 0; }
+.seminar-list li { margin-bottom: 19px; }
+.short-list li { margin-bottom: 6px; }
+footer { display: flex; justify-content: space-between; gap: 16px; margin-top: 40px; color: #666; font-size: 11px; }
+.skip-link { position: absolute; top: -50px; left: 15px; background: #fff; padding: 5px; }
+.skip-link:focus { top: 10px; }
+@media (max-width: 600px) {
+  .page { padding: 28px 20px 22px; }
+  h1 { font-size: 30px; margin-bottom: 22px; }
+  h2 { font-size: 21px; margin-top: 27px; }
+  .research-item { gap: 16px; align-items: flex-start; }
+  .project-figure { flex-basis: 115px; width: 115px; margin-top: 3px; }
+  .project-figure img { max-height: 150px; }
+}
+@media (max-width: 440px) {
+  .research-item { display: block; }
+  .project-figure { width: 180px; margin: 0 auto 16px; }
+  .project-figure img { max-height: 170px; }
+  .project-figure figcaption { margin-top: 5px; }
+  footer { font-size: 10px; }
+}
+@media print {
+  .page { max-width: none; padding: 0; }
+  body { font-size: 11px; }
+  h1 { font-size: 25px; }
+  h2 { font-size: 18px; margin-top: 22px; }
+  h3 { font-size: 12px; }
+  .research-item { break-inside: avoid; }
+  .project-figure { flex-basis: 130px; width: 130px; }
+  a { color: #111; }
+}

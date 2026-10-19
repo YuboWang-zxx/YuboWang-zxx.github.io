@@ -5,58 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>Yubo Wang</title>
-  <meta name="description" content="Yubo Wang — Research intern at SAIS and NYU mathematics graduate. Self-supervised visual representation learning, JEPA world models, and planning.">
+  <meta name="description" content="Yubo Wang — NYU mathematics graduate and research intern at SAIS. Self-supervised visual representation learning, JEPA world models, and planning.">
   <meta property="og:title" content="Yubo Wang">
   <meta property="og:description" content="Research in self-supervised visual representations, world models, and planning.">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://yubowang-zxx.github.io/">
   <meta property="og:url" content="https://yubowang-zxx.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v=20261019-2">
 </head>
 <body>
   <a href="#research" class="skip-link">Skip to research</a>
   <main class="page">
     <!-- EDIT: Personal introduction and contact links. -->
     <header class="intro" id="top">
+      <div class="intro-text">
       <h1>Yubo Wang</h1>
-      <p>I am a research intern at the Shanghai Academy of AI for Science (SAIS), where I study JEPA-based world models for efficient and long-horizon planning. I graduated from New York University with a <strong>B.A. in Mathematics</strong> in May 2026, with a GPA of 3.82/4.0 and <em>Cum Laude</em> honors.</p>
-      <p>My interests lie in <strong>self-supervised visual representation learning</strong> and how learned representations transfer to downstream tasks. I am particularly interested in world models that support prediction and planning in latent space. I first explored this direction in Yann LeCun’s Deep Learning course at NYU.</p>
-      <p>I am seeking <strong>MPhil / PhD opportunities for Fall 2027</strong>.</p>
+      <p>I completed my undergraduate degree in Mathematics at New York University (NYU). I am currently a research intern at the Shanghai Academy of AI for Science (SAIS), working on JEPA world models for efficient and long-horizon planning.</p>
+      <p>My interests lie in self-supervised visual representation learning and how learned representations transfer to downstream tasks. I am particularly interested in JEPA world models.</p>
       <p class="contact"><a href="mailto:yw6734@nyu.edu">Email</a><span>/</span><a href="assets/Yubo_Wang_CV.pdf">CV</a><span>/</span><a href="https://github.com/YuboWang-zxx">GitHub</a></p>
+      </div>
+      <a class="portrait" href="assets/yubo-wang.jpg" aria-label="View full photograph of Yubo Wang"><img src="assets/yubo-wang.jpg" width="960" height="1440" alt="Yubo Wang at New York University" fetchpriority="high"></a>
     </header>
 
-    <!-- EDIT: Research, publication, and project entries. Each article is independent. -->
+    <!-- EDIT: Selected research projects. Each article is independent. -->
     <section id="research" aria-labelledby="research-heading">
-      <h2 id="research-heading">Research</h2>
+      <h2 id="research-heading">Selected Research Projects</h2>
       <article class="research-item text-only" id="sais">
         <div class="item-body">
           <h3>Efficient and Long-Horizon Planning with JEPA World Models</h3>
           <p class="metadata">Research Intern, Shanghai Academy of AI for Science · Jun 2026–Present</p>
           <p>Studying and reproducing JEPA world models, from visual representations and latent dynamics to planning. I am investigating computational bottlenecks in MPC, exploring more efficient planning algorithms, and studying hierarchical models for prediction and planning at multiple temporal scales.</p>
-        </div>
-      </article>
-
-      <h2 id="publications">Publications</h2>
-      <article class="research-item" id="cookbook">
-        <figure class="project-figure"><a href="assets/survey-3dv.jpeg"><img src="assets/survey-3dv.jpeg" width="1920" height="1080" alt="Eight ways to represent 3D geometry, illustrated with the Stanford bunny." loading="lazy"></a></figure>
-        <div class="item-body">
-          <h3><a href="https://arxiv.org/abs/2606.04291">A Cookbook of 3D Vision: Data, Learning Paradigms, and Application</a></h3>
-          <p class="authors">Hongyang Du, Zongxia Li, Dawei Liu, Runhao Li, Haoyuan Song, Qingyu Zhang, <strong>Yubo Wang</strong>, Jingcheng Ni, Shihang Gui, Congchao Dong, Tao Hu</p>
-          <p class="venue"><em>CVPR OpenSUN3D Workshop</em>, 2026</p>
-          <p class="links"><a href="https://arxiv.org/abs/2606.04291">paper</a> / <a href="https://github.com/Hongyang-Du/awesome-3d-datasets">repository</a></p>
-          <p>Co-authored a data-centric survey of 3D representations, datasets, and learning paradigms across reconstruction, generation, and embodied intelligence. Analyzed 50 representative datasets and co-maintain the companion repository, with a focus on world models.</p>
-        </div>
-      </article>
-
-      <h2 id="projects">Selected Projects</h2>
-      <article class="research-item" id="dino-wm">
-        <figure class="project-figure"><a href="assets/dino-evaluation.png"><img src="assets/dino-evaluation.png" width="2256" height="1463" alt="DINOv2 and DINOv3 Push-T evaluation results from my course project report." loading="lazy"></a></figure>
-        <div class="item-body">
-          <h3><a href="https://github.com/YuboWang-zxx/dino_wm/tree/exp/dinov3-WorldModel">Visual Representations for Planning: A DINO-WM Study</a></h3>
-          <p class="metadata">Computer Vision, NYU · Nov–Dec 2025</p>
-          <p class="links"><a href="https://github.com/YuboWang-zxx/dino_wm/tree/exp/dinov3-WorldModel">code</a> / <a href="https://github.com/YuboWang-zxx/dino_wm/blob/exp/dinov3-WorldModel/CV_Final_Project_Report__1_.pdf">report</a></p>
-          <p>Reproduced DINO-WM for Push-T manipulation and compared DINOv2 and DINOv3 through encoder and decoder ablations. Lower latent prediction loss did not improve downstream planning under the fixed MPC/CEM configuration, motivating further study of representation geometry and the prediction–control mismatch.</p>
         </div>
       </article>
       <article class="research-item" id="jepa">
@@ -66,65 +45,35 @@
           <p class="metadata">Deep Learning, NYU · Yann LeCun · Apr–May 2025</p>
           <p class="links"><a href="https://github.com/YuboWang-zxx/DL25SP-Final-Project">code</a> / <a href="https://github.com/YuboWang-zxx/DL25SP-Final-Project/blob/main/DL%20final%20presentation%20-%20Google%20Slides.pdf">presentation</a></p>
           <p>Built a 3.63M-parameter, action-conditioned JEPA model on 2.5M offline trajectories in a two-room environment. Used Barlow Twins warmup, MSE alignment, and encoder freezing to prevent collapse, and evaluated generalization to new layouts and longer rollouts.</p>
-          <p><strong>Ranked second overall and achieved the best model performance in the course competition.</strong></p>
+          <p>Ranked second overall and achieved the best model performance in the course competition.</p>
         </div>
       </article>
-      <article class="research-item text-only" id="credit-default">
+      <article class="research-item text-only" id="information-theory">
         <div class="item-body">
-          <h3><a href="https://github.com/YuboWang-zxx/Machine-Learning-Project">Credit Default Prediction with Relational Data</a></h3>
-          <p class="metadata">Machine Learning, NYU · Oct–Dec 2024</p>
-          <p class="links"><a href="https://github.com/YuboWang-zxx/Machine-Learning-Project">code</a> / <a href="https://github.com/YuboWang-zxx/Machine-Learning-Project/blob/main/ML_Project.pdf">report</a></p>
-          <p>Integrated seven Home Credit tables and compared logistic regression, random forests, and LightGBM. Five-fold cross-validation and focal loss improved ROC-AUC from 0.7918 to 0.8175.</p>
+          <h3><a href="https://github.com/YuboWang-zxx/Information-Theory-Project">Information Theory for Statistics and Machine Learning</a></h3>
+          <p class="metadata">PhD-level Advanced Topics Course, NYU · Fall 2025</p>
+          <p class="links"><a href="https://github.com/YuboWang-zxx/Information-Theory-Project/blob/main/Report.pdf">report</a> / <a href="https://github.com/YuboWang-zxx/Information-Theory-Project/blob/main/Presentation_slides.pdf">slides</a> / <a href="https://github.com/YuboWang-zxx/Information-Theory-Project">repository</a></p>
+          <p>Presented Leung and Barron’s <em>Information Theory and Mixing Least-Squares Regressions</em> (2006) and derived the key oracle inequality for exponential-weight model averaging. Coursework covered information-theoretic tools for minimax risk, sample complexity, and statistical estimation.</p>
         </div>
       </article>
-    </section>
-
-    <!-- EDIT: Seminars and presentations. -->
-    <section id="seminars" aria-labelledby="seminars-heading">
-      <h2 id="seminars-heading">Seminars &amp; Presentations</h2>
-      <p>Paper reading, classroom presentations, and derivations in PhD-level advanced topics courses at NYU.</p>
-      <ul class="seminar-list">
-        <li>
-          <strong>Information Theory for Statistics and Machine Learning</strong> · Fall 2025<br>
-          Presented Leung and Barron’s <em>Information Theory and Mixing Least-Squares Regressions</em> (2006) and derived the key oracle inequality for exponential-weight model averaging. Coursework covered information-theoretic tools for minimax risk, sample complexity, and statistical estimation.<br>
-          <a href="https://github.com/YuboWang-zxx/Information-Theory-Project/blob/main/Report.pdf">report</a> / <a href="https://github.com/YuboWang-zxx/Information-Theory-Project/blob/main/Presentation_slides.pdf">slides</a> / <a href="https://github.com/YuboWang-zxx/Information-Theory-Project">repository</a>
-        </li>
-        <li>
-          <strong>Randomized Algorithms and Monte Carlo Methods</strong> · Spring 2025<br>
-          Presented Fearnhead et al.’s <em>Piecewise Deterministic Markov Processes for Continuous-Time Monte Carlo</em> (2018), worked through generator and invariance derivations, and implemented a Zig–Zag sampler with event-time thinning on a 2D Gaussian target.<br>
-          <a href="https://github.com/YuboWang-zxx/Randomized-Algorithm-project/blob/main/report.pdf">report</a> / <a href="https://github.com/YuboWang-zxx/Randomized-Algorithm-project">code</a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- EDIT: Education and coursework. -->
-    <section id="education" aria-labelledby="education-heading">
-      <h2 id="education-heading">Education</h2>
-      <p><strong>New York University</strong>, B.A. in Mathematics · Sep 2022–May 2026<br>College of Arts and Science · GPA: 3.82/4.0 · <em>Cum Laude</em></p>
-      <p><strong>Graduate coursework:</strong> Deep Learning, Machine Learning, Natural Language Processing, Computer Vision, Information Theory, Probability Theory, Numerical Methods, Randomized Algorithms, Differential Geometry.</p>
-      <p><strong>Undergraduate coursework:</strong> Calculus, Linear Algebra, Abstract Algebra, Discrete Mathematics, Topology, Analysis, Data Science.</p>
-    </section>
-
-    <!-- EDIT: Other experience, honors, and skills. -->
-    <section id="experience" aria-labelledby="experience-heading">
-      <h2 id="experience-heading">Other Experience</h2>
-      <ul>
-        <li><strong>Quantitative Research Intern, Shenwan Hongyuan Securities</strong>, Shanghai · Jun–Aug 2024<br>Implemented a martingale-based futures-price estimator and compared it with ML baselines. Built a Python pipeline for 87 fundamental factors and a gradient-boosting stock-selection model with time-decayed weights, obtaining an information coefficient of 0.11.</li>
-        <li><strong>Grader, Analysis (MATH-UA 325)</strong>, NYU · Spring 2025<br>Graded for one semester.</li>
-      </ul>
-    </section>
-
-    <section id="honors" aria-labelledby="honors-heading">
-      <h2 id="honors-heading">Honors &amp; Awards</h2>
-      <ul class="short-list">
-        <li><strong>Cum Laude</strong>, NYU College of Arts and Science · May 2026</li>
-        <li><strong>Dean’s List</strong>, NYU College of Arts and Science · 2022–2023, 2023–2024</li>
-      </ul>
-    </section>
-
-    <section id="skills" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <p><strong>Tools:</strong> PyTorch, Linux, Git, C++, Java<br><strong>Languages:</strong> Chinese (native), English (professional)</p>
+      <article class="research-item text-only" id="randomized-algorithms">
+        <div class="item-body">
+          <h3><a href="https://github.com/YuboWang-zxx/Randomized-Algorithm-project">Randomized Algorithms and Monte Carlo Methods</a></h3>
+          <p class="metadata">PhD-level Advanced Topics Course, NYU · Spring 2025</p>
+          <p class="links"><a href="https://github.com/YuboWang-zxx/Randomized-Algorithm-project/blob/main/report.pdf">report</a> / <a href="https://github.com/YuboWang-zxx/Randomized-Algorithm-project">code</a></p>
+          <p>Presented Fearnhead et al.’s <em>Piecewise Deterministic Markov Processes for Continuous-Time Monte Carlo</em> (2018), worked through generator and invariance derivations, and implemented a Zig–Zag sampler with event-time thinning on a 2D Gaussian target.</p>
+        </div>
+      </article>
+      <article class="research-item" id="cookbook">
+        <figure class="project-figure"><a href="assets/survey-3dv.jpeg"><img src="assets/survey-3dv.jpeg" width="1920" height="1080" alt="Eight ways to represent 3D geometry, illustrated with the Stanford bunny." loading="lazy"></a></figure>
+        <div class="item-body">
+          <h3><a href="https://arxiv.org/abs/2606.04291">A Cookbook of 3D Vision: Data, Learning Paradigms, and Application</a></h3>
+          <p class="authors">Hongyang Du, Zongxia Li, Dawei Liu, Runhao Li, Haoyuan Song, Qingyu Zhang, Yubo Wang, Jingcheng Ni, Shihang Gui, Congchao Dong, Tao Hu</p>
+          <p class="venue"><em>CVPR OpenSUN3D Workshop</em>, 2026</p>
+          <p class="links"><a href="https://arxiv.org/abs/2606.04291">paper</a> / <a href="https://github.com/Hongyang-Du/awesome-3d-datasets">repository</a></p>
+          <p>Co-authored a data-centric survey of 3D representations, datasets, and learning paradigms across reconstruction, generation, and embodied intelligence. Analyzed 50 representative datasets and co-maintain the companion repository, with a focus on world models.</p>
+        </div>
+      </article>
     </section>
     <footer><span>Last updated: October 2026</span><a href="https://github.com/jonbarron/jonbarron.github.io">Website template</a></footer>
   </main>

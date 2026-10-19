@@ -37,5 +37,11 @@
     "alt": "Stanford bunny represented as RGB-D, multi-view images, point clouds, voxels, mesh, CAD, implicit representation, and 3D Gaussians.",
     "provenance": "Unmodified original repository image.",
     "file": "assets/survey-3dv.jpeg"
+  },
+  {
+    "project": "Profile photograph",
+    "file": "assets/yubo-wang.jpg",
+    "source": "Photograph supplied by Yubo Wang on 2026-10-19",
+    "provenance": "Unmodified original file; CSS adjusts only the displayed framing. Clicking the portrait opens the complete image."
   }
 ]

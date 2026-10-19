@@ -6,7 +6,7 @@
 
 ## 文件结构
 
-- `index.html`：全部页面内容，已添加注释标记各个编辑区域。
+- `index.html`：个人简介和 Selected Research Projects，已添加注释标记编辑区域。
 - `assets/style.css`：字体、间距、页面宽度和手机端布局。
 - `assets/Yubo_Wang_CV.pdf`：网站上的简历下载文件。
 - `assets/` 中的图片：项目和论文插图。
@@ -21,7 +21,7 @@
 
 **增加项目**：复制一整段 `<article class="research-item"> ... </article>`，更新标题、日期、链接、摘要和图片。给 `id` 一个新的唯一值。无图片时使用 `research-item text-only` 并去掉 figure。
 
-**增加照片**：当前版本没有个人照片，可后续在简介区域加入；请使用自己的照片。
+**更换照片**：替换 `assets/yubo-wang.jpg`。页面使用 CSS 调整显示范围，点击可查看原图。
 
 **更新日期**：页面底部的 Last updated 为手动文本，修改内容时一并更新。
 
